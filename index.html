@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>はやしの紹介ページ</title>
+     <link rel="stylesheet" href="index.css">
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
@@ -12,7 +13,36 @@
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+<body>
+   <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="selected">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="logo">
+        <img src="prof.jpg" alt="">
+
+      </div>
+    </header>
+    <div class="container">
+      <section>
+        <h2>About</h2>
+        <h3>自己紹介</h3>
+        <p>林　由里恵（はやし　ゆりえ）</p>
+        <p>大阪府出身。ライブイベンターの活動をしています。</p>
+        <p>神戸での<span class="blue">Days</span> 、東京での合同企画<span class="red">Gotcha!!!!</span>の2イベントを企画しています。
+        </p>
+        <p>気になった方は、<a href="contact.html">Contact</a>よりご連絡お願い致します。</p>
+        <h3>リンク</h3>
+        <ul>
+          <li><a href="https://github.com/yuriehayashi095" target="_blank">github</a></li>
+      </section>
+      <footer>
+        <p>&copy; 2015 Yurie Hayashi</p>
+      </footer>
+    </div>
   </body>
 </html>
